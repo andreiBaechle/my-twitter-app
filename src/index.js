@@ -1,4 +1,12 @@
+//@author Andrei Baechle
 // index.js
-import ReactDOM from 'react-dom'
 
-ReactDOM.render('no more hello worlds please', document.getElementById('root'))
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './components/App.jsx'
+
+import './index.css'
+
+ReactDOM.render(<App />, document.getElementById('root'))
+
+
